@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubackground"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titleBar"
+        android:id="@+id/titleBar"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material"
+        android:layout_marginTop="@dimen/abc_action_button_min_width_overflow_material"
+        android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingBottom="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginBottom="@dimen/abc_dialog_padding_material" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quickStart"
+        android:id="@+id/quickStartBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/abc_action_bar_progress_bar_size"
+        android:layout_marginRight="@dimen/abc_action_bar_progress_bar_size"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:paddingLeft="@dimen/abc_dialog_padding_material"
+        android:paddingRight="@dimen/abc_dialog_padding_material"
+        android:background="#bfabada4"
+        android:layout_marginTop="@dimen/abc_dialog_padding_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+        android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingBottom="@dimen/abc_action_bar_content_inset_material" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customGame"
+        android:id="@+id/customGameBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/abc_action_bar_progress_bar_size"
+        android:layout_marginRight="@dimen/abc_action_bar_progress_bar_size"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:paddingLeft="@dimen/abc_dialog_padding_material"
+        android:paddingRight="@dimen/abc_dialog_padding_material"
+        android:background="#bfabada4"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+        android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingBottom="@dimen/abc_action_bar_content_inset_material" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stats"
+        android:id="@+id/statsBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/abc_action_bar_progress_bar_size"
+        android:layout_marginRight="@dimen/abc_action_bar_progress_bar_size"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:paddingLeft="@dimen/abc_dialog_padding_material"
+        android:paddingRight="@dimen/abc_dialog_padding_material"
+        android:background="#bfabada4"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+        android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingBottom="@dimen/abc_action_bar_content_inset_material" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creditsButtonLabel"
+        android:id="@+id/creditsBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/abc_action_bar_progress_bar_size"
+        android:layout_marginRight="@dimen/abc_action_bar_progress_bar_size"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:paddingLeft="@dimen/abc_dialog_padding_material"
+        android:paddingRight="@dimen/abc_dialog_padding_material"
+        android:background="#bfabada4"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+        android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingBottom="@dimen/abc_action_bar_content_inset_material" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appCopyright"
+        android:id="@+id/copyrightInfo"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#9d481b"
+        android:gravity="center"
+        android:paddingTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:paddingBottom="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:background="#141414"
+        android:layout_marginTop="@dimen/abc_action_button_min_width_overflow_material" />
+</LinearLayout>

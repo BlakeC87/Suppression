@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground2">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startCustomGame"
+        android:id="@+id/startCustomGameBtn"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:padding="18dp"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textColor="#ccc"
+        android:background="#E01D2528"
+        android:layout_marginBottom="@dimen/abc_action_button_min_width_overflow_material" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:background="#E01D2528"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" >
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccc"
+            android:max="1"
+            android:progress="0"
+            android:progressTint="#888"
+            android:id="@+id/startingPiecesBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/startingPieces"
+            android:textSize="30sp"
+            android:textColor="#ccc"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:id="@+id/startingPiecesText"
+            android:textSize="24sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:background="#E01D2528"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" >
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aiSettingBar"
+            android:background="#ccc"
+            android:progress="1"
+            android:max="5"
+            android:progressTint="#888" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/aiSetting"
+            android:id="@+id/textView25"
+            android:textSize="30sp"
+            android:textColor="#ccc"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strategic"
+            android:id="@+id/aiDescriptionText"
+            android:textSize="24sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:id="@+id/leaveSettingsBtn"
+        android:textColor="#ccc"
+        android:background="#E01D2528"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material" />
+</LinearLayout>

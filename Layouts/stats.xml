@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetStats"
+        android:id="@+id/resetStatsBtn"
+        android:textColor="#ccc"
+        android:background="#e01d2528"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+        android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/abc_action_bar_progress_bar_size" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:background="#e01d2528"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="@dimen/abc_select_dialog_padding_start_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/gameStatsTitle"
+            android:id="@+id/textView33"
+            android:textSize="30sp"
+            android:textColor="#ccc"
+            android:layout_marginBottom="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suppressionsTitle"
+                android:id="@+id/textView27"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:id="@+id/suppressionsText"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/winsTitle"
+                android:id="@+id/textView29"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:id="@+id/winsText"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lossesTitle"
+                android:id="@+id/textView31"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:id="@+id/lossesText"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drawsTitle"
+                android:id="@+id/textView34"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:id="@+id/drawsText"
+                android:textSize="24sp"
+                android:textColor="#ccc"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:id="@+id/leaveStatsBtn"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:padding="18dp"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textColor="#ccc"
+        android:background="#e01d2528"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+</LinearLayout>

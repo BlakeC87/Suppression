@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubackground2"
+    android:visibility="visible"
+    android:clickable="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:background="#e01d2528"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginRight="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/musicTitle"
+            android:id="@+id/textView42"
+            android:textSize="20sp"
+            android:textColor="#ccc"
+            android:layout_marginBottom="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bandTitle"
+            android:id="@+id/textView43"
+            android:textSize="16sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/songURL"
+            android:id="@+id/textView45"
+            android:textSize="12sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/songChanges"
+            android:id="@+id/textView47"
+            android:textSize="12sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:background="#e01d2528"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/soundEffectsTitle"
+            android:id="@+id/textView36"
+            android:textSize="20sp"
+            android:textColor="#ccc"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soundfxSource"
+            android:id="@+id/textView37"
+            android:textSize="16sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soundfxURL"
+            android:id="@+id/textView38"
+            android:textSize="12sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:background="#e01d2528"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/imagesTitle"
+            android:id="@+id/textView39"
+            android:textSize="20sp"
+            android:textColor="#ccc"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imageSource"
+            android:id="@+id/textView40"
+            android:textSize="16sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imageURL"
+            android:id="@+id/textView41"
+            android:textSize="12sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iconSource"
+            android:id="@+id/textView50"
+            android:textSize="16sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iconURL"
+            android:id="@+id/textView51"
+            android:textSize="12sp"
+            android:textColor="#ccc"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:id="@+id/leaveCreditsBtn"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height_material"
+        android:padding="18dp"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textColor="#ccc"
+        android:background="#e01d2528"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material" />
+</LinearLayout>
